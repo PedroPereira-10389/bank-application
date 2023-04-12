@@ -1,10 +1,10 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.example.app',
   appName: 'bank-application',
-  webDir: 'dist',
-  bundledWebRuntime: false
+  webDir: 'build',
+  bundledWebRuntime: false,
 };
 
 export default config;
